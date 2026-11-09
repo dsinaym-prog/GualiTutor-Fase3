@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="12dp" android:background="#F4F6FB">
+    <TextView android:id="@+id/tituloLeccion" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="LECCIÓN ACTIVA" android:textSize="23sp" android:textStyle="bold" android:textColor="#243B73"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="110dp" android:background="#E7E9F3" android:layout_marginTop="8dp" android:padding="8dp">
+        <TextView android:id="@+id/detalleLeccion" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Descripción de la lección" android:textSize="13sp"/>
+    </ScrollView>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Editor de código Java" android:textStyle="bold" android:layout_marginTop="10dp"/>
+    <EditText android:id="@+id/editorCodigo" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:gravity="top|start" android:inputType="textMultiLine|textNoSuggestions" android:typeface="monospace" android:textSize="13sp" android:background="#FFFFFF" android:padding="10dp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:id="@+id/btnCompilar" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Compilar" android:backgroundTint="#6750A4"/>
+        <Button android:id="@+id/btnEjecutar" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Ejecutar" android:backgroundTint="#6750A4"/>
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Panel de consola" android:textStyle="bold"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="105dp" android:background="#E7E9F3" android:padding="8dp">
+        <TextView android:id="@+id/consola" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Consola" android:typeface="monospace" android:textSize="12sp"/>
+    </ScrollView>
+    <Button android:id="@+id/btnCerrarLeccion" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cerrar lección" android:backgroundTint="#6750A4"/>
+</LinearLayout>

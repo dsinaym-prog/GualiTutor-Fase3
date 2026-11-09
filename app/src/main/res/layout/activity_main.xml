@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#F4F6FB" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical" android:gravity="center_horizontal" android:padding="24dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="GUALI TUTOR" android:textColor="#243B73" android:textSize="30sp"
+            android:textStyle="bold" android:gravity="center" android:layout_marginTop="45dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Aprende programación con Java" android:textSize="16sp"
+            android:gravity="center" android:layout_marginBottom="35dp"/>
+        <Button android:id="@+id/btnLecciones" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Mis lecciones" android:backgroundTint="#6750A4"/>
+        <Button android:id="@+id/btnHistorial" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Historial" android:backgroundTint="#6750A4"/>
+        <Button android:id="@+id/btnConfiguracion" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Configuración" android:backgroundTint="#6750A4"/>
+        <Button android:id="@+id/btnAyuda" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ayuda" android:backgroundTint="#6750A4"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center"
+            android:layout_marginTop="35dp" android:text="Fase 3 · Frontend Android · API REST" android:textColor="#59627A"/>
+    </LinearLayout>
+</ScrollView>

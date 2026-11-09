@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="20dp" android:background="#F4F6FB">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="CONFIGURACIÓN" android:textSize="26sp" android:textStyle="bold" android:textColor="#243B73" android:gravity="center"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Valores guardados en la API REST" android:gravity="center" android:layout_marginBottom="15dp"/>
+    <TextView android:id="@+id/estadoConfiguracion" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cargando..." android:padding="8dp"/>
+    <ListView android:id="@+id/listaConfiguracion" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <Button android:id="@+id/btnActualizarConfiguracion" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Actualizar" android:backgroundTint="#6750A4"/>
+    <Button android:id="@+id/btnVolverConfiguracion" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Volver al inicio" android:backgroundTint="#6750A4"/>
+</LinearLayout>
